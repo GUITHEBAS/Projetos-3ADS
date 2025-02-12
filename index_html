@@ -8,73 +8,92 @@
       <div class="div4"></div> http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-      <title>Projeto dos Fellas</title>
+      <title>Thebas</title>
       <link rel="stylesheet" type="text/css" href=""> 
       <meta charset="UTF-8">
       <script src="jQuery.js"></script>
             
       <style>
-        .style {
+
+        .style{
            width:2020px;
            height:750px;
            border: 5px solid rgb(0, 0, 0) ;
            padding: 250px ;
            position: absolute;
-           background-color: rgba(143, 6, 207, 0.862);
+           background-color: rgba(67, 9, 224, 0.862);
            top: 50%;
            left: 50%;
            transform: translate(-50%,-50%);
            border-radius: 15px;
-           background-image: linear-gradient(rgba(141, 8, 202, 0.633),rgba(8, 197, 8, 0.69));
+           background-image: linear-gradient(rgba(25, 44, 129, 0.633),rgba(43, 31, 209, 0.69),rgb(25, 128, 197));
 
 
 
         }
       
-        .cabeça{
+        .header{
            width:2020px;
            height:80px;
-           border:7px solid purple ;
+           border:7px solid rgb(13, 185, 207) ;
            padding:100px;
            margin-top: -235px;
            margin-right: ;       
            margin-left: -200px;
-           background-color: darkgrey;
+           background-color: rgb(16, 188, 231);
         }
-         .joelho{
-           width: 1900px;
+
+         .main{
+           width: 2020px;
            height: 620px;
            border:2px solid rgb(17, 14, 172);
            padding: 0;
-         }
+        }
 
-         .epé{
-           width: 1900px;
+         .footer{
+           width: 2020px;
            height: 150px;
-           border: 3px solid green;
+           border: 3px solid rgb(97, 8, 197);
            padding: 0; 
 
-         }
+        }
+        
+        .centro{
+           width: 2020px;
+           height: 150px;
+           border: 3px solid rgb(13, 93, 184);
+        }
+
+        .esquerda{
+            width: 2020px;
+           height: 150px;
+           border: 3px solid rgb(10, 219, 219);
+        }
 
 
-
+        
       </style>
         
     </head>
 <body>
   <div class="style">
-      <div class="cabeça"> </div>
 
-      <div class="joelho"> </div>
+      <div class="header"></div>
+
+        <div class="main">
+
+            <div class="esquerda"></div>
+        
+            <div class="centro"></div>
+
+            <div class="direita"></div>
+
+        </div>
+        <div class="footer"></div>
   
-      <div class="epé"></div>
-      
-      <div class="fundo"></div>
+    
     </div>
     
     
   </body>
   </html>
-  
-  
- .div$*3
